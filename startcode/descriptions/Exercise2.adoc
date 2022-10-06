@@ -1,0 +1,123 @@
+:Exercise2_1_Package: pass:normal[`+no.hvl.dat100.lab6.matriser+`]
+:Exercise2_1_FileName: pass:normal[`+Matriser.java+`]
+:Exercise2_1_FileSimpleName: pass:normal[`+Matriser+`]
+:Exercise2_2_Package: pass:normal[`+no.hvl.dat100.lab6.matriser+`]
+:Exercise2_2_FileName: pass:normal[`+Matriser.java+`]
+:Exercise2_2_FileSimpleName: pass:normal[`+Matriser+`]
+:Exercise2_3_Package: pass:normal[`+no.hvl.dat100.lab6.matriser+`]
+:Exercise2_3_FileName: pass:normal[`+Matriser.java+`]
+:Exercise2_3_FileSimpleName: pass:normal[`+Matriser+`]
+:Exercise2_4_Package: pass:normal[`+no.hvl.dat100.lab6.matriser+`]
+:Exercise2_4_FileName: pass:normal[`+Matriser.java+`]
+:Exercise2_4_FileSimpleName: pass:normal[`+Matriser+`]
+:Exercise2_5_Package: pass:normal[`+no.hvl.dat100.lab6.matriser+`]
+:Exercise2_5_FileName: pass:normal[`+Matriser.java+`]
+:Exercise2_5_FileSimpleName: pass:normal[`+Matriser+`]
+:Exercise2_6_Package: pass:normal[`+no.hvl.dat100.lab6.matriser+`]
+:Exercise2_6_FileName: pass:normal[`+Matriser.java+`]
+:Exercise2_6_FileSimpleName: pass:normal[`+Matriser+`]
+:Task2_1_1_FullName: public static void skrivUt(int[][] matrise)
+:Task2_1_1_SimpleName: pass:normal[`+skrivUt+`]
+:Task2_1_1_Type: pass:normal[`+Method+`]
+:Task2_2_1_FullName: public static String tilStreng(int[][] matrise)
+:Task2_2_1_SimpleName: pass:normal[`+tilStreng+`]
+:Task2_2_1_Type: pass:normal[`+Method+`]
+:Task2_3_1_FullName: public static int[][] skaler(int tall, int[][] matrise)
+:Task2_3_1_SimpleName: pass:normal[`+skaler+`]
+:Task2_3_1_Type: pass:normal[`+Method+`]
+:Task2_4_1_FullName: public static boolean erLik(int[][] a, int[][] b)
+:Task2_4_1_SimpleName: pass:normal[`+erLik+`]
+:Task2_4_1_Type: pass:normal[`+Method+`]
+:Task2_5_1_FullName: public static int[][] speile(int[][] matrise)
+:Task2_5_1_SimpleName: pass:normal[`+speile+`]
+:Task2_5_1_Type: pass:normal[`+Method+`]
+:Task2_6_1_FullName: public static int[][] multipliser(int[][] a, int[][] b)
+:Task2_6_1_SimpleName: pass:normal[`+multipliser+`]
+:Task2_6_1_Type: pass:normal[`+Method+`]
+:DescriptionReference_1: pass:normal[`+tall+`]
+:DescriptionReference_2: pass:normal[`+a+`]
+:DescriptionReference_3: pass:normal[`+b+`]
+
+= *Obligatorisk oppgave O1-B*
+
+Oppgaven omhandler flerdimensjonale tabeller og matricer og er andre halvdel av obligatorisk innlevering fra forrige programmeringslab.
+
+Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
+
+Start med å lese beskrivelsen av matriser i oppgave 5.17 i Java boken.
+
+== a)
+
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task2_1_1_FullName}
+----
+
+som kan skrive ut en matrise. Prøv å bruke to (nøstede) utvidede for-løkker (se avsnitt 5.6 i boken for beskrivelse av utvidet for-løkke).
+
+== b)
+Implementer en metode
+
+[source, java, subs="attributes+"]
+----
+{Task2_2_1_FullName}
+----
+
+som returnerer en streng-representation av en matrise. Om matrisen er følgende: 
+
+[source, java, subs="attributes+"]
+----
+{ {1,2,3}, {4,5,6}, {7,8,9} }
+----
+
+da skal strengen som returneres ha følgende innhold:
+
+[source, java, subs="attributes+"]
+----
+1 2 3 \n4 5 6 \n7 8 9 \n
+----
+
+== c) 
+Implementer en metode
+
+[source, java, subs="attributes+"]
+----
+{Task2_3_1_FullName}
+----
+
+som returnerer en ny matrise der alle tall i matrisen er multiplisert med parameteren {DescriptionReference_1}. Metoden må først opprette en matrise like stor som parameteren og så multiplisere alle elementer med {DescriptionReference_1}.
+
+== d)
+Implementer en metode
+
+[source, java, subs="attributes+"]
+----
+{Task2_4_1_FullName}
+----
+
+som avgj�r om to matriser gitt ved parametrene {DescriptionReference_2} og {DescriptionReference_3} er like.
+
+== e) (Valgfri/vanskelig)
+Implementer en metode
+
+[source, java, subs="attributes+"]
+----
+{Task2_5_1_FullName}
+----
+
+som kan speile en kvadratisk matrise som beskrevet i oppgave 5.17 i Java-boken. Metoden må først opprette en matrise like stor som parameteren. Etter dette skal metoden kopiere alle elementene fra parameteren til den nye matrisen og så speile den nye
+
+== f) (Valgfri/vanskelig)
+Implementer en metode
+
+[source, java, subs="attributes+"]
+----
+{Task2_6_1_FullName}
+----
+
+som kan multiplisere to matriser. Test metoden. Vi har lov å multiplisere to matriser hvis antall kolonner i den første matrisen er lik antall rekker i den andre. For definisjon av matrise-multiplikasjon, se eks. https://en.wikipedia.org/wiki/Matrix_multiplication
+
+
+

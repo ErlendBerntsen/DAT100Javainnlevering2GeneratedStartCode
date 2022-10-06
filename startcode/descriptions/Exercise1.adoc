@@ -1,0 +1,158 @@
+:Exercise1_1_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_1_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_1_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_2_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_2_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_2_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_3_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_3_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_3_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_4_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_4_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_4_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_5_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_5_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_5_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_6_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_6_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_6_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_7_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_7_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_7_FileSimpleName: pass:normal[`+Tabeller+`]
+:Exercise1_8_Package: pass:normal[`+no.hvl.dat100.lab5.tabeller+`]
+:Exercise1_8_FileName: pass:normal[`+Tabeller.java+`]
+:Exercise1_8_FileSimpleName: pass:normal[`+Tabeller+`]
+:Task1_1_1_FullName: public static void skrivUt(int[] tabell)
+:Task1_1_1_SimpleName: pass:normal[`+skrivUt+`]
+:Task1_1_1_Type: pass:normal[`+Method+`]
+:Task1_2_1_FullName: public static String tilStreng(int[] tabell)
+:Task1_2_1_SimpleName: pass:normal[`+tilStreng+`]
+:Task1_2_1_Type: pass:normal[`+Method+`]
+:Task1_3_1_FullName: public static int summer(int[] tabell)
+:Task1_3_1_SimpleName: pass:normal[`+summer+`]
+:Task1_3_1_Type: pass:normal[`+Method+`]
+:Task1_4_1_FullName: public static boolean finnesTall(int[] tabell, int tall)
+:Task1_4_1_SimpleName: pass:normal[`+finnesTall+`]
+:Task1_4_1_Type: pass:normal[`+Method+`]
+:Task1_5_1_FullName: public static int posisjonTall(int[] tabell, int tall)
+:Task1_5_1_SimpleName: pass:normal[`+posisjonTall+`]
+:Task1_5_1_Type: pass:normal[`+Method+`]
+:Task1_6_1_FullName: public static int[] reverser(int[] tabell)
+:Task1_6_1_SimpleName: pass:normal[`+reverser+`]
+:Task1_6_1_Type: pass:normal[`+Method+`]
+:Task1_7_1_FullName: public static boolean erSortert(int[] tabell)
+:Task1_7_1_SimpleName: pass:normal[`+erSortert+`]
+:Task1_7_1_Type: pass:normal[`+Method+`]
+:Task1_8_1_FullName: public static int[] settSammen(int[] tabell1, int[] tabell2)
+:Task1_8_1_SimpleName: pass:normal[`+settSammen+`]
+:Task1_8_1_Type: pass:normal[`+Method+`]
+:DescriptionReference_1: pass:normal[`+tabell+`]
+:DescriptionReference_2: pass:normal[`+tabell+`]
+:DescriptionReference_3: pass:normal[`+tall+`]
+:DescriptionReference_4: pass:normal[`+tabell+`]
+:DescriptionReference_5: pass:normal[`+tall+`]
+:DescriptionReference_6: pass:normal[`+tabell+`]
+:DescriptionReference_7: pass:normal[`+tabell1+`]
+:DescriptionReference_8: pass:normal[`+tabell2+`]
+
+= *Obligatoriske oppgave O1-A*
+
+Denne oppgaven omhandler tabeller og metoder og vil være en del av neste obligatorisk innlevering med frist i starten av uke 40.
+
+Den obligatoriske innleveringen skal gjøres i grupper med opptil 4 personer. Det er de samme gruppene som dere skal bruke i programmeringsprosjektet i uke 41/42.
+
+Husk å bruke startkoden og enhetstester for oppgaven:
+
+https://github.com/dat100hib/dat100-javainnlevering2/blob/master/README.md
+
+På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
+
+Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
+
+bddfgøøøø
+
+== a)
+Implementer en metode:
+[source, java, subs="attributes+"]
+----
+{Task1_1_1_FullName}
+----
+som kan skrive ut en tabell med heltal. Du kan selv bestemme formatet.
+
+== b)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_2_1_FullName}
+----
+
+som kan returnere en tekststreng (String) med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
+
+[source, java, subs="attributes+"]
+----
+"[42,67,89]"
+----
+
+== c)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_3_1_FullName}
+----
+
+som gitt en {DescriptionReference_1} av heltall som parameter beregner summen av tallene som er lagret i tabellen.
+
+Implementer tre varianter av metoden: en som bruker en vanlig for-løkke, en som bruker en while-løkke, og en som bruker en utvidet for-løkke.
+
+Test de ulike implementasjoner av metoden på utvalgte tabeller og se at de gir riktig resultat. Metoden fra a) kan brukes ifm. test.
+
+== d)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_4_1_FullName}
+----
+som gitt en {DescriptionReference_2} og et {DescriptionReference_3}returnerer true om tabellen {DescriptionReference_2} innholder tallet {DescriptionReference_3} og false ellers.
+
+== e)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_5_1_FullName}
+----
+
+som returnerer det første index (posisjon) i {DescriptionReference_4} som inneholder tallet {DescriptionReference_5} og -1 ellers.
+
+== f)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_6_1_FullName}
+----
+
+som gitt en {DescriptionReference_6} av heltall returnerer en ny tabell som har de samme elementene som {DescriptionReference_6} men i modsatt rekkefølge.
+
+== g)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_7_1_FullName}
+----
+
+som kan avgjere om ein array (tabell) av heiltal er sortert stigande (dvs. at alle tal skal vere større enn det forrige)
+
+== h)
+Implementer en metode:
+
+[source, java, subs="attributes+"]
+----
+{Task1_8_1_FullName}
+----
+
+som gitt to tabeller {DescriptionReference_7} og {DescriptionReference_8} som parametre og returnerer en ny tabell som er sammensetning av de to tabeller.
