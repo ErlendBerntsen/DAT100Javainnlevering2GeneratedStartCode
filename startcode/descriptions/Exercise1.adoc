@@ -69,8 +69,6 @@ På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til e
 
 Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
 
-bddfgøøøø
-
 == a)
 Implementer en metode:
 [source, java, subs="attributes+"]
